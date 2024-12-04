@@ -18,6 +18,11 @@ Execute the Maven targets to generate the artifacts
 
 ```
 mvn clean package
+
+For Windows - please use the below command
+
+mvn clean install
+
 ```
 
 The above maven target stroes the artifacts to the `target` directory. You can either execute the artifact on your local machine
